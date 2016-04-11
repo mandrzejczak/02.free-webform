@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Weekly WebDev Challenge 1 | Free Webform</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<main>
+		<header class="page-header">
+			<a href="#" title="Homepage">
+				<img src="images/Masteralb.com TOP LOGO.png" alt="Masteralb - Logo">
+				<!--
+					<img src="images/Masteralb.com TOP LOGO.png" id="logo-shadow">
+				-->
+				
+			</a>
+		</header>
+
+		<section class ="main-content">
+				<div class="first-column">
+					<article>
+						<h2>Register Form</h2>
+						<form id="register-form">
+							<span>
+								<label for="username-input">
+									<div class="user-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="username-input" class="text-input" name="Username" placeholder="Username">
+							</span>
+
+							<span>
+								<label for="password-input">
+									<div class="lock-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="password" id="password-input" class="text-input" name="Password" placeholder="Password">
+							</span>
+
+							<span>
+								<label for="confirm-password-input">
+									<div class="lock-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="password" id="confirm-password-input" class="text-input" name="Confirm-Password" placeholder="Confirm Password">
+							</span>
+
+							<span>
+								<label for="email-input">
+									<div class="envelope-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="email-input" class="text-input" name="Email" placeholder="Email">
+							</span>
+
+							<span>
+								<label for="your-location-input">
+									<div class="google-maps-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<select id="your-location-input" class="select-input" name="Your-Location" >
+									<option value="" disabled selected>Your Location</option>
+									<option value="Warsaw">
+										Warsaw
+									</option>
+									<option value="Paris">
+										Paris
+									</option>
+									<option value="New-York">
+										New York
+									</option>
+								</select>
+							</span>
+
+							<span class="accept-checkbox">
+								<input type="checkbox" id="accept-terms-input" name="Accept-Terms" />
+								<label for="accept-terms-input" class="checkbox-image"></label>
+								<label for="accept-terms-input" class="accept-terms-text">
+									I have read and accept the terms of use.
+								</label>
+								
+							</span>
+
+							<span class="button">
+								<button type="submit" id="register-submit-button" class="submit-button">
+									Sign up
+								</button>
+							</span>
+						</form>
+					</article>
+					<article>
+						<h2>Send Email</h2>
+						<form id="send-email">
+							<span>
+								<label for="your-name-input">
+									<div class="user-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="your-name-input" class="text-input" name="Username" placeholder="Your name">
+							</span>
+							<span>
+								<label for="your-email-input">
+									<div class="envelope-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="your-email-input" class="text-input" name="Email" placeholder="Your Email">
+							</span>
+							<span class="textarea">
+								<textarea name="your-message" cols="40" rows="11" class="textarea-input" id="your-email-message"s>Type your message...</textarea>
+							</span>
+							<span class="accept-checkbox">
+								<input type="checkbox" id="send-copy-input" name="Accept-Terms" />
+								<label for="send-copy-input" class="checkbox-image"></label>
+								<label for="send-copy-input" class="accept-terms-text">
+									Send a copy to my Email
+								</label>
+								
+							</span>
+
+							<span class="button">
+								<button type="submit" id="send-email-submit-button" class="submit-button">
+									Send Email
+								</button>
+							</span>
+						</form>
+					</article>
+				</div>
+
+				<div class="second-column">
+					<article>
+						<h2>Sign In Form</h2>
+						<form id="sign-in-form">
+							<span>
+								<label for="sign-in-username-input">
+									<div class="user-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="sign-in-username-input" class="text-input" name="Username" placeholder="Username">
+							</span>
+							<span>
+								<label for="sign-in-password-input">
+									<div class="lock-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="password" id="sign-in-password-input" class="text-input" name="Password" placeholder="Password">
+							</span>
+							<span class="accept-checkbox" id="remember-me-checkbox">
+								<input type="checkbox" id="remember-me-input" name="Accept-Terms" />
+								<label for="remember-me-input" class="checkbox-image"></label>
+								<label for="remember-me-input" class="accept-terms-text">
+									Remember me
+								</label>
+								
+							</span>
+
+							<span class="button" id="sign-in-button">
+								<button type="submit" id="sign-in-submit-button" class="submit-button">
+									Sign in
+								</button>
+							</span>
+							
+						</form>
+					</article>
+
+					<article>
+						<h2>Recover Form</h2>
+						<form id="recover-form">
+							<span>
+								<label for="recover-email-input">
+									<div class="envelope-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="recover-email-input" class="text-input" name="Email" placeholder="Enter your Email">
+							</span>
+							<span>
+								<label for="recover-phone-input">
+									<div class="phone-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="recover-phone-input" class="text-input" name="Phone" placeholder="Enter your Phone number">
+							</span>
+							<span class="button" id="send-button">
+								<button type="submit" id="send-submit-button" class="submit-button">
+									Send
+								</button>
+							</span>
+							<span class="button" id="done-button">
+								<button type="submit" id="done-submit-button" class="submit-button" disabled="disabled">
+									Done
+								</button>
+							</span>
+						</form>
+					</article>
+
+					<article>
+						<h2>Subscribe Form</h2>
+						<form id="subscribe-form">
+							<span>
+								<label for="subscribe-email-input">
+									<div class="envelope-icon">
+									</div>
+									<div class="separator">
+									</div>
+								</label>
+								<input type="text" id="subscribe-email-input" class="text-input" name="Email" placeholder="Enter your Email">
+							</span>
+							<span class="button" id="subscribe-button">
+								<button type="submit" id="subscribe-submit-button" class="submit-button">
+									Subscribe
+								</button>
+							</span>
+							<span class="button" id="no-button">
+								<button type="submit" id="no-submit-button" class="submit-button">
+									No, Thanks
+								</button>
+							</span>
+							
+						</form>
+
+						<footer class="page-footer">
+							<a href="#" title="Homepage">
+								<img src="images/Masteralb.com TOP LOGO.png" alt="Masteralb - Logo">
+							</a>
+							<a href="#" title="Go to Masteralb site">
+								<img src="images/masteralb-link.png" alt="Masteralb - link" class="link-image">
+							</a>
+						</footer>
+					</article>
+				</div>
+		</section>
+	</main>
+</body>
+</html>
